@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rmschneider</title>
+    <link>https://rmschneider.net/</link>
+    <description>Recent content on rmschneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Aug 2019 18:41:19 -0400</lastBuildDate>
+    
+	<atom:link href="https://rmschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>https://rmschneider.net/posts/first-post/</link>
+      <pubDate>Mon, 05 Aug 2019 18:41:19 -0400</pubDate>
+      
+      <guid>https://rmschneider.net/posts/first-post/</guid>
+      <description>Trying another hugo static site generation template. Maybe I will actually do some blogging this time around. Who knows.
+I never seem to find the time though.</description>
+    </item>
+    
+    <item>
+      <title>A Brief Bio</title>
+      <link>https://rmschneider.net/about/</link>
+      <pubDate>Mon, 05 Aug 2019 14:40:53 -0400</pubDate>
+      
+      <guid>https://rmschneider.net/about/</guid>
+      <description>A technical leader with strategic vision and experience, Ray makes informed data driven decisions when possible and strong decisions based on experience when necessary.
+Ray empowers teams ultimately creating inclusive environments that increase commitment and performance producing results.
+Ray’s technical background allows him to understand challenges and coach while collaborating across the organization contributing to a winning team and organization.
+Ray has a proven ability to clearly communicate with executives and peers, as well as members of the technical teams.</description>
+    </item>
+    
+  </channel>
+</rss>
