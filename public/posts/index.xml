@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on rmschneider</title>
+    <link>https://rmschneider.net/posts/</link>
+    <description>Recent content in Posts on rmschneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Dec 2019 19:44:52 -0500</lastBuildDate>
+    
+	<atom:link href="https://rmschneider.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>End of 2019</title>
+      <link>https://rmschneider.net/posts/endof2019/</link>
+      <pubDate>Mon, 30 Dec 2019 19:44:52 -0500</pubDate>
+      
+      <guid>https://rmschneider.net/posts/endof2019/</guid>
+      <description>Not a great year in my book. 2019 brought the passing of my father and my only living grandmother. My Dad before his time, and well, my grandmother, she was 96. Wow!
+I&amp;rsquo;m ready for a New Year. I&amp;rsquo;m ready for 2019 to be behind me. I&amp;rsquo;m ready for 2020 and to get hammering on all sorts of projects. Rides, Runs, Mountains, Art, Botany, Work. Its the beginning of a new decade of life for me here at the tail end of the year as well.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://rmschneider.net/posts/first-post/</link>
+      <pubDate>Mon, 05 Aug 2019 18:41:19 -0400</pubDate>
+      
+      <guid>https://rmschneider.net/posts/first-post/</guid>
+      <description>Trying another hugo static site generation template. Maybe I will actually do some blogging this time around. Who knows.
+I never seem to find the time though.</description>
+    </item>
+    
+  </channel>
+</rss>
