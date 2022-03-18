@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rayschneider.net/posts/lessismore/</loc>
-    <lastmod>2022-03-15T09:10:19-04:00</lastmod>
-  </url><url>
     <loc>https://rayschneider.net/posts/</loc>
-    <lastmod>2022-03-15T09:10:19-04:00</lastmod>
+    <lastmod>2022-03-18T08:29:33-04:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/</loc>
+    <lastmod>2022-03-18T08:29:33-04:00</lastmod>
+  </url><url>
+    <loc>https://rayschneider.net/posts/readablerandraidable/</loc>
+    <lastmod>2022-03-18T08:29:33-04:00</lastmod>
+  </url><url>
+    <loc>https://rayschneider.net/posts/lessismore/</loc>
     <lastmod>2022-03-15T09:10:19-04:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/posts/mycorevalues/</loc>
