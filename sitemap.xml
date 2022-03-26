@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rayschneider.net/projects/comingsoon/</loc>
+    <lastmod>2022-03-24T12:43:31-04:00</lastmod>
+  </url><url>
+    <loc>https://rayschneider.net/projects/</loc>
+    <lastmod>2022-03-24T12:43:31-04:00</lastmod>
+  </url><url>
+    <loc>https://rayschneider.net/</loc>
+    <lastmod>2022-03-24T12:43:31-04:00</lastmod>
+  </url><url>
     <loc>https://rayschneider.net/posts/lifelonglearning/</loc>
     <lastmod>2022-03-21T14:27:54-04:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/posts/</loc>
-    <lastmod>2022-03-21T14:27:54-04:00</lastmod>
-  </url><url>
-    <loc>https://rayschneider.net/</loc>
     <lastmod>2022-03-21T14:27:54-04:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/posts/veryinteresting/</loc>
