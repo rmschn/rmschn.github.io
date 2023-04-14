@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rayschneider.net/posts/lockin/</loc>
+    <lastmod>2023-02-20T17:01:01-05:00</lastmod>
+  </url><url>
+    <loc>https://rayschneider.net/posts/</loc>
+    <lastmod>2023-02-20T17:01:01-05:00</lastmod>
+  </url><url>
+    <loc>https://rayschneider.net/</loc>
+    <lastmod>2023-02-20T17:01:01-05:00</lastmod>
+  </url><url>
     <loc>https://rayschneider.net/projects/newdevlaptop/</loc>
     <lastmod>2023-02-05T16:10:25-05:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/projects/</loc>
     <lastmod>2023-02-05T16:10:25-05:00</lastmod>
-  </url><url>
-    <loc>https://rayschneider.net/</loc>
-    <lastmod>2023-02-05T16:10:25-05:00</lastmod>
-  </url><url>
-    <loc>https://rayschneider.net/posts/</loc>
-    <lastmod>2023-02-05T14:24:15-05:00</lastmod>
   </url><url>
     <loc>https://rayschneider.net/posts/welcome2023/</loc>
     <lastmod>2023-02-05T14:24:15-05:00</lastmod>

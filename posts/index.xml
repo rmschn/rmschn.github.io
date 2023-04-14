@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Feb 2023 14:24:15 -0500</lastBuildDate><atom:link href="https://rayschneider.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 17:01:01 -0500</lastBuildDate><atom:link href="https://rayschneider.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lock-In</title>
+      <link>https://rayschneider.net/posts/lockin/</link>
+      <pubDate>Mon, 20 Feb 2023 17:01:01 -0500</pubDate>
+      
+      <guid>https://rayschneider.net/posts/lockin/</guid>
+      <description>Lock-In&amp;hellip; Its heard all the time in technical circles. Its a bad thing. Its an undesirable situation. Avoiding lock-in is sometimes a full-time job. Recognizing the potential for lock-in is something that gets called out in meetings often. Lock-In is a concern without an option. Everything is lock-in. The truth is lock-in is just technical debt. It is technical debt that may or may not ever be realized. If it is realized, there is a definite cost If it is not realized, there is no cost associated with it beyond the cost already incurred and accepted.</description>
+    </item>
+    
     <item>
       <title>Welcome 2023</title>
       <link>https://rayschneider.net/posts/welcome2023/</link>
