@@ -6,7 +6,19 @@
     <description>Recent content on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Feb 2023 17:01:01 -0500</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 13:44:42 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>https://rayschneider.net/posts/automation/</link>
+      <pubDate>Sun, 09 Jul 2023 13:44:42 -0400</pubDate>
+      
+      <guid>https://rayschneider.net/posts/automation/</guid>
+      <description>Automation is a very loaded term. First thing to do is define it. Then work to deliver what is defined. There are requirements that must be met before you can automate anything. Those requirements are the following:
+ Use Case Definitions Standardization API availability CRUD Least privilege(security)  Lets dive into each of these defining them and exploring what they really mean.
+Lets define automation first.
+Automation is programmatic process that requires no human hands-on intervention.</description>
+    </item>
+    
     <item>
       <title>Lock-In Is A State Of Mind</title>
       <link>https://rayschneider.net/posts/lockin/</link>
