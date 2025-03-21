@@ -128,10 +128,12 @@ intend to blog about some things of interest to me over the course of the year.<
           <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2frayschneider.net%2fposts%2fwelcome2023%2f"><i class="fab fa-line"></i></a>
         
         
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2frayschneider.net%2fposts%2fwelcome2023%2f"><i class="fab fa-linkedin"></i></a>
+        
       </div>
     
     
-      <p>Copyright (C) 2023 Ray Schneider</p>
+      <p>Copyright (C) 2024 Ray Schneider. All Rights Reserved.</p>
     
      © 2023    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/naro143/hugo-coder-portfolio">CoderPortfolio</a>. 
 
@@ -139,6 +141,8 @@ intend to blog about some things of interest to me over the course of the year.<
 </footer>
 <div class="fixed-bar">
   <section class="container">
+    
+      <p id="privateTriggerText">Thank You! Feel free to share→<a id="privateTrigger">Click!</a></p>
     
     
       <div class="sns-shares pc-sns-shares">
@@ -155,6 +159,8 @@ intend to blog about some things of interest to me over the course of the year.<
           <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2frayschneider.net%2fposts%2fwelcome2023%2f"><i class="fab fa-line"></i></a>
         
         
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2frayschneider.net%2fposts%2fwelcome2023%2f"><i class="fab fa-linkedin"></i></a>
+        
       </div>
     
   </section>
@@ -166,6 +172,17 @@ intend to blog about some things of interest to me over the course of the year.<
     
 
   <script src="/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("Thank You! Please share it if you like it→");
+      });
+    });
+   })(jQuery);
+  </script>
   
   </body>
 </html>
