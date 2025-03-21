@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ray Schneider</title>
-    <link>https://rayschneider.net/</link>
-    <description>Recent content on Ray Schneider</description>
+    <title>Posts on Ray Schneider</title>
+    <link>https://rayschneider.net/posts/</link>
+    <description>Recent content in Posts on Ray Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Jul 2023 13:44:42 -0400</lastBuildDate><atom:link href="https://rayschneider.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 13:44:42 -0400</lastBuildDate><atom:link href="https://rayschneider.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
       <link>https://rayschneider.net/posts/automation/</link>
@@ -29,33 +29,12 @@ Automation is programmatic process that requires no human hands-on intervention.
     </item>
     
     <item>
-      <title>Newdevlaptop</title>
-      <link>https://rayschneider.net/projects/newdevlaptop/</link>
-      <pubDate>Sun, 05 Feb 2023 16:10:25 -0500</pubDate>
-      
-      <guid>https://rayschneider.net/projects/newdevlaptop/</guid>
-      <description>The new laptop an HP Envy machine with AMD chipset (Ryzen) and 2TB of disk accompanied by 64G of memory. Heres a link:
-https://www.amazon.com/dp/B09Q1R99K7?psc=1&amp;amp;ref=ppx_yo2ov_dt_b_product_details
-So far I am giving Pop!OS Linux a try based off a recommendation from a friend. It seems this machine is a touch too new to have everything work, but so far the only thing I have noticed not functional are the internal Bang &amp;amp; Olufsen speakers.</description>
-    </item>
-    
-    <item>
       <title>Welcome 2023</title>
       <link>https://rayschneider.net/posts/welcome2023/</link>
       <pubDate>Sun, 05 Feb 2023 14:24:15 -0500</pubDate>
       
       <guid>https://rayschneider.net/posts/welcome2023/</guid>
       <description>Its already Feb! Its time to get myself in gear on this and start delivering. I put a stub in last year for projects. I never got to them. This year I intend to do just that. The projects will likely start off small, and largely be posted there as a way for myself to keep some notes about what I am doing and why I am doing it and how I did it.</description>
-    </item>
-    
-    <item>
-      <title>Coming Soon</title>
-      <link>https://rayschneider.net/projects/comingsoon/</link>
-      <pubDate>Thu, 24 Mar 2022 12:43:31 -0400</pubDate>
-      
-      <guid>https://rayschneider.net/projects/comingsoon/</guid>
-      <description>Adding space here for technical projects. Several are on deck as I build a new home lab. I&amp;rsquo;ll likely cover its build out, and then I will start covering work that I do in the lab.
-Its going to be fun!</description>
     </item>
     
     <item>
@@ -118,15 +97,6 @@ NOTE: I may update this in the future. Its not a static document.
 Inspired by others I have seen over the years, I can&amp;rsquo;t claim complete originality for this.
 The following is intended to be a guide for working with me. It attempts to compile a group of areas and methods with an eye towards our collaboration in the workplace being efficient and effective.
 Here we go&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://rayschneider.net/about/</link>
-      <pubDate>Wed, 16 Feb 2022 15:01:58 -0500</pubDate>
-      
-      <guid>https://rayschneider.net/about/</guid>
-      <description>Ray&amp;rsquo;s experience ranges from seed funded startup to the Fortune 50 inside telecoms, ISP&amp;rsquo;s, financials, media and security companies. Ray is a technical leader, problem solver, and solutions oriented team builder. He is known for on-time, on-spec delivery with a reputation of getting things done. Ray&amp;rsquo;s background includes experience from all vantage points of the software and product lifecycle delivering some 30+ products with both internal and external customers so far.</description>
     </item>
     
   </channel>
