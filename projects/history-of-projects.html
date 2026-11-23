@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A History of Projects · [ray schneider]</title>
+  <meta name="description" content="Projects over the years">
+  <meta name="generator" content="build.sh">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="../index.html">[ray schneider]</a>
+      <nav class="site-nav" aria-label="Main navigation"><ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a class="active" aria-current="page" href="../projects/index.html">Projects</a></li>
+      </ul></nav>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <article class="entry entry-full">
+      <h1 class="entry-title">A History of Projects</h1>
+      <p class="meta"><time datetime="2026-11-23">November 23, 2026</time></p>
+      <div class="entry-body">
+<p>I figured since this website is starting over that I would provide a bit of a history of products / projects I have created / done over the years. So this is that sort of document. I'm writing it in part to share the types of things I have done in the past as they will give some insight into the types of projects you will be able to find documented here in the future. So lets get started...</p>
+<p>NOTE: I'm not going to name any companies, and if the name of a project gives away the company I will change it so that it does not. </p>
+<h2>A Descriptive List of Projects</h2>
+<p>My apologies if some of the below sound generic in name / description. Again this was done to protect the anonymity of the organization for or where the work was done. The only goal here is to share the type of projects that I tend to get myself into. You'll find that its generally: Infrastructure, Automation, and Cybersecurity related.</p>
+<p>This is not exhaustive, but quite a few are listed below.</p>
+<ul>
+<li><strong>Bespoke Monitoring System</strong> </li>
+</ul>
+<p>This monitoring system was for a system monitoring the physical situation in what amounted to an old mine. It would warn when the situation was getting to a place where something needed to be done to avoid physical failure of the system and an environmental mess.</p>
+<ul>
+<li><strong>Secure Email System Complete with SLA monitoring for Customers</strong></li>
+</ul>
+<p>This was for a startup where customers submitted work to be done optimizing cellular signal reuse patterns for cell towers. The work was picked up by the system via email submission. I built a redundant and secure email system based on open source software of the time. I then designed, wrote, and deployed a service level agreement monitoring system. This allowed customers to track the progress of their submissions and gain insights into whether or not the agreed to SLA was being met and when they could expect the resulting outputs.</p>
+<ul>
+<li><strong>Secure Remote Gateway Using One-Time-Pads</strong></li>
+</ul>
+<p>A small startup needed a secure gateway to allow people to access infrastructure from offsite. This was when most people were still on dial-up access over modems and broadband was hard to come by. The system was based on OpenBSD, and some java applets that allowed for one-time-pad generation and use to authenticate accounts prior to giving access to internal infrastructure.</p>
+<ul>
+<li><strong>Secure WIFI with ISAKMPD and IPsec prior to WEP or WPA being widely available</strong></li>
+</ul>
+<p>This one is something that was only needed at that time, these days its not necessary. The startup had WIFI for executives only. However this was back when folks were 'war-driving' companies and attempting to connect to their WIFI networks and nothing was encrypted if I recall correctly. I worked with OpenBSD, ISAKMPD, and Cisco Airnet cards to use IPsec in order to secure the executive WIFI network and protect it from prying eyes.</p>
+<ul>
+<li><strong>Internal Port of MIT Kerberos V with further security add-ons</strong></li>
+</ul>
+<p>I joined a company that had a Kerberos IV deployment that had been heavily modified by a vendor contract relationship. They wanted to upgrade to Kerberos V and needed to ensure that all of their internal changes in Kerberos IV were captured in the new Kerberos V deployment. I added all sorts of code and patches intergrating things like cracklib. During this time I also discovered a DoS vulnerability generating a patch and getting it submitted to the project. </p>
+<ul>
+<li><strong>Root Password Management System (acronym: APE)</strong></li>
+</ul>
+<p>The SOC needed access to root passwords occassionally. However, as we all know these are sensitive things. This system generated secure root passwords, deployed them across sets of systems, and printed these passwords off in a secured printer behind locked doors that would then get enveloped and dropped into a safe that the SOC could access when necessary. This meant no one ever knew what the password was. When an envelope was opened a new root password was generated. </p>
+<ul>
+<li><strong>Authorization System (acronym: SOI)</strong></li>
+</ul>
+<p>This system had existed prior to my joining this company. However it was originally a large set of ksh that had been converted to C. In any case, it controlled what accounts had access to what systems and what they could do. It did this for systems running 7 different flavors of *nix. This system was modernized and performance improved dramatically. A fun thing I did on this project at one point was to use Tcl's C API to strip down an interpreter to almost nothing, and then add back in my own commands. Once I did this I had an interpreter that could read a config file, generate its command set. Great fun.</p>
+<ul>
+<li><strong>Validity Period Exceptions (VPE)</strong></li>
+</ul>
+<p>A problem that many organizations used to have much more so than they do now was dormant accounts that could still provide access to systems. These were generally accounts given to contractors and other short term access. These would linger long after those people left opening the door to access risks. I added functionality to allow for essentially a timer that would automatically lock out an account after a certain period of time. The time range could be anything from 15 minutes to a year or more. This meant when an account was created, it came with a time-to-live.</p>
+<ul>
+<li><strong>Multi-Gig IDS implemented with Opensource and internal code</strong></li>
+</ul>
+<p>I played a small hand in the creation of one of the first multi-gig IDS's back in the early 2000's. There were two other folks that did much more than I did. The system was built on open source, and a lot of internal modifications.</p>
+<ul>
+<li><strong>Secure Remote Capable Testing Environment for IDS / IPS</strong></li>
+</ul>
+<p>A company needed to rebuild testing capabilities for their security product line. On occasion malicious traffic would escape the lab and cause the companies ISP to cut them off. The lab was rebuilt using virtual machines and virtual networking with additional safeguards. The new lab also enabled the ability to hop into it through a secure channel.</p>
+<ul>
+<li><strong>Remote / Automated Customer Support Lab</strong></li>
+</ul>
+<p>Support team was struggling to help customers with their issues with the IDS product. They could not replicate issues quite often and needed a way to do that. Designed and built a support lab that had automated reconfiguration of common customer deployment scenarios. This allowed support to readily setup a test environment that enabled them to replicate customer issues and resolve them.</p>
+<ul>
+<li><strong>Initial Platform for &lt;Company&gt; as they moved into the Security Space</strong></li>
+</ul>
+<p>I was the head of a small team that created the intial prototypes for a companies move into the network security space. Not much to say beyond they were a hardware company and the prototypes took advantage of their hardware solutions to implement security products. This company is still doing business today and is quite successful.</p>
+<ul>
+<li><strong>Automated One-Way Secured QA Pipeline for &lt;Company&gt;</strong></li>
+</ul>
+<p>Company had an issue with their products not being delivered with sufficient quality checks in place, which put them in a situation where customers often discovered issues and wondered how it got through QA. I designed a one-way secured QA pipeline that involved developer tagged submissions, package deployment into virtualized environments, automated tests, and reporting. This resolved the QA situation and improved the customer experience.</p>
+<ul>
+<li><strong>DNS Resolver (contrib)</strong></li>
+</ul>
+<p>I contributed to DNS resolver code base that was a part of an entire DNS ecosystem. The company was bought and the product lives on.</p>
+<ul>
+<li><strong>Packet Capture Write to Disk at Line Rate system (Multi-Gig)</strong></li>
+</ul>
+<p>For yet another startup, I worked on a multi-gig packet capture and write to disk at line rate solution. This involved Linux systems, a reconfigured kernel with PFRING compiled in. The startup was later bought for ~$80M</p>
+<ul>
+<li><strong>Catapulta Linux – Minimal Secure Linux Distro for startup product line</strong></li>
+</ul>
+<p>Created a stripped down Linux distribution for a startups product line, enabling more control of the product, and minimizing the attack surface. Also, removing the need to recompile kernels from standard distributions of the time, while prodiving default tooling that standard distros did not.</p>
+<ul>
+<li><strong>Secure Internet Gateway</strong></li>
+</ul>
+<p>This company was in the hospitality industry and provided systems that enabled internet access for people. It was sold at different levels, and under the covers I employed QoS in the Linux kernel to make those levels possible. </p>
+<ul>
+<li><strong>Bespoke Worldwide Internet Gateway Backup and Recovery System</strong></li>
+</ul>
+<p>This company had product failures for crazy reasons, once it was because the server had been drowned in salt water. Don't ask.. :) Before I created this system, the company would occassionally fly people all over the world to a deployed location in order to fix it, or restore it. In some cases this was because the country that the product was in did not allow inbound connectivity. I implemented a backup and recovery system that initiated on the deployed product system itself and sent signed backups and checksums to our location in the US. These could then be used remotely to restore a deployed system instead of flying people all over the world when silly things happened.</p>
+<ul>
+<li><strong>OS Provisioning and Automation</strong></li>
+</ul>
+<p>A data center automation solution built on top of various open source projects that replaced a very expensive and professional services altered deployment of a proprietary system that did the same. This system handle operating systems and deployments of physical and virtual infrastructure.</p>
+<ul>
+<li><strong>Package Management</strong></li>
+</ul>
+<p>This solution came about as a result of a vendor breaking our internal automation that relied on their product. We replaced their product over a weekend using open source and in-house coding. This solution was then deployed across all data centers and resulted in the replacement of the vendor's solution entirely. Never again was the internal automation disrupted by that same challenge.</p>
+<ul>
+<li><strong>Config Management</strong></li>
+</ul>
+<p>Everyone uses a lot of different tools for configuration. The only reason I put this project here is at the time, there was no way to promote configuration changes or rollback configuration changes across deployment environments. We did this by taking Puppet and bolting gitlab onto the back end of it along with some internal code that made all of this possible. It worked great. There was never again any fear of promoting something to production or hearing that something worked in dev but not in QA, or that once deployed to production the project failed.</p>
+<ul>
+<li><strong>Easy Deploy Logging Cluster Virtual Appliances</strong></li>
+</ul>
+<p>This was a cookie cuttered internal ELK stack that could be ordered and deployed virtually for anyones project in the company. It was an instance of a distributed logging solution across the entire companies footprint.</p>
+<ul>
+<li><strong>Yet Another Monitoring System (YAMS)</strong></li>
+</ul>
+<p>This solution enabled deployed projects to come up automatically being monitored. It was homegrown, developed using ruby, and a default project requirement. </p>
+<ul>
+<li><strong>Host Meta Data (HMD)</strong></li>
+</ul>
+<p>This was a method of grouping systems that enabled other systems to take actions on those groups. HMD could be any number of various tags, or other data that earmarked a system in a particular way, or as a member of a particular group.</p>
+<ul>
+<li><strong>Mass Remote Execution (MRE)</strong></li>
+</ul>
+<p>This system took advantage of underlying open source, allowed for atomic execution across system using a concurrent execution design. It was based on a secure host, and allowed select users to excute actions as root across sets of systems while still ensuring that the account taking action as root was being tracked accurately.</p>
+<h2>You Read This Far?</h2>
+<p>If you have read this far, I want to share that in a few instances of the above projects I was simply the designer or the leader of the team. However on the vast majority of the above, I was either everything to the project, or partnered with a very small group. There are other projects in my history, but I remember most of these fondly. I hope they provide a decent glimpse into my professional experience. None of the above were personal projects unlike what I am mostly going to be covering on this part of the website.</p>
+      </div>
+      <p class="back-link"><a href="index.html">&larr; Back to Projects</a></p>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 [ray schneider]. All Rights Reserved. Site generated by shell script.</p>
+    </div>
+  </footer>
+</body>
+</html>
